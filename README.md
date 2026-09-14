@@ -39,8 +39,8 @@ Medical data engineering pipeline that loads and transforms patient health data,
 
 ```bash
 # Clone repo
-git clone https://github.com/your-username/diabetes-prediction-pipeline.git
-cd diabetes-prediction-pipeline
+git clone https://github.com/pfcperez/diabetes-prediction.git
+cd diabetes-prediction
 
 # Create virtual environment
 python -m venv venv
@@ -48,11 +48,6 @@ source venv/bin/activate
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn jupyter
-
-# Download data
-# Kaggle: Pima Indians Diabetes Database
-# Place diabetes.csv in /data/raw/
-```
 
 ---
 
